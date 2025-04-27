@@ -44,10 +44,10 @@ public class Welcome extends JFrame{
 
         playButton.addMouseListener(new MouseAdapter() {
             public void mouseEntered(MouseEvent e) {
-                playButton.setBackground(Color.CYAN); // Màu khi hover vào
+                playButton.setBackground(Color.CYAN); 
             }
             public void mouseExited(MouseEvent e) {
-                playButton.setBackground(UIManager.getColor("control")); // Màu ban đầu
+                playButton.setBackground(UIManager.getColor("control")); 
             }
         });
         
