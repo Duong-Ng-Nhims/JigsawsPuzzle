@@ -30,7 +30,7 @@ public class Welcome extends JFrame{
 
         JLabel titleLabel = new JLabel("Jigsaw Puzzle Game");
         titleLabel.setFont(PoetsenOne);
-        titleLabel.setForeground(Color.PINK);
+        titleLabel.setForeground(Color.BLUE);
         titleLabel.setBounds(150, 200, 800, 100);
         backgroundPanel.add(titleLabel);
 
